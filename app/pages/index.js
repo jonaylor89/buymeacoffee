@@ -3,6 +3,8 @@ import { ToastContainer, toast } from "react-toastify";
 import { ethers } from "ethers";
 import "react-toastify/dist/ReactToastify.css";
 
+import abi from "../utils/CoffeePortal.json";
+
 import Head from "next/head";
 
 
@@ -10,7 +12,7 @@ export default function Home() {
   /**
    * Create a variable here that holds the contract address after you deploy!
    */
-  const contractAddress = "";
+  const contractAddress = "0x6e0B9c9786D7E717b6ad054B7068ae235ac1c661";
 
   /**
    * Create a variable here that references the abi content!
